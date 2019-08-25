@@ -1,7 +1,59 @@
 body{
     font-family: sans-serif;
 }
-
+.img{
+    float: right;
+}
 .projects{
+    color: #FFF;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width:750px;
+}
+.projects a {
+    text-decoration: none;
     color: darkslategray;
+}
+.about{
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: left;
+    width:600px;
+    line-height:1.25em;
+    margin: 15px;
+}
+.background{
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: left;
+    width:600px;
+    line-height:1.25em;
+    margin: 15px;
+}
+.interests{
+    
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: left;
+    width:600px;
+    line-height:1.25em;
+    margin: 15px;
+}
+
+.quote{
+    color: darkslategray;
+    background-color:seashell;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    margin:25px;
+    margin-bottom: 50px;
 }

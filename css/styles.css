@@ -1,23 +1,21 @@
-body{
-    font-family: sans-serif;
-}
 .img{
     float: right;
+    margin-bottom: 30px;
 }
-.projects{
-    color: #FFF;
-    background-color: #DCDCDC;
-    font-weight: bold;
-    padding: 20px;
-    text-align: left;
-    border: 2px solid #5D6063;
-    border-radius: 5px;
-    width:750px;
+.box{
+    background-color: transparent;
+    margin-top: 20px;
+    width:1000px;
+    height:25px;
+    margin: 15px;
+
 }
-.projects a {
-    text-decoration: none;
-    color: darkslategray;
-}
+
+.well{
+    background-color:snow !important;
+    }
+
+/*
 .about{
     background-color: white;
     padding: 5px;
@@ -45,15 +43,4 @@ body{
     width:600px;
     line-height:1.25em;
     margin: 15px;
-}
-
-.quote{
-    color: darkslategray;
-    background-color:seashell;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid #5D6063;
-    border-radius: 5px;
-    margin:25px;
-    margin-bottom: 50px;
 }

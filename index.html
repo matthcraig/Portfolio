@@ -3,19 +3,29 @@
   <head>
     <title>The Portfolio</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
 
+
 <body>
+<div class="container">
+  
+<div class="jumbotron">
+  <div class= "img">
+    <img src="img/cloud 10.jpg" width= 300px height= auto>
+  </div>
 
-<h1>Matthew Craig</h1>
-<h2>Portfolio</h2>
-
-<div class="img">
-  <img src="img/cloud 10.jpg" width="300px" height="auto">
+  <h1>Matthew Craig</h1>
+  <h2>Portfolio</h2>
 </div>
 
-<div class="projects">
-  <strong>A Few Current Projects:</strong>
+<div class="box">   </div>
+
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h2 class="panel-title"><strong>A Few Current Projects:</strong></h2>
+  </div>
+  <div class="panel-body">
     <ul>
       <li><a href="https://github.com/mgcraig78/Vacation"><strong>Vacation</strong> - <em>This is a page using HTML, but also featuring some very cool features of Bootstrap.</em></a></li>
       <li><a href="https://github.com/mgcraig78/html-page-philly-coffee"><strong>Philadelphia Coffee</strong> - <em>This page displays a few HTML block elements, and makes use of IMG and A tags.</em></a></li>
@@ -24,34 +34,54 @@
       <li><a href="https://github.com/mgcraig78/Boring-Lecture"><strong>Boring Lecture</strong> - <em>This site explores the possibility of styling HTML with classes.</em></a></li>
       <li><a href="https://github.com/mgcraig78/divs-spans-etc"><strong>Divs, Spans, Trash</strong> - <em>So I got the keen idea to combine all aspects of a day of Epicodus into one page, as opposed to many, which each display only one or two facets of web development. This page uses divs, spans, floats, and the box model. Side note, I live in Philly and I'm surrounded by trash.</em></a></li>
     </ul>
+  </div>
 </div>
 
-<div class="about">
-  <h3>About Me</h3>
-  <p>I came to coding very recently, after years of working in the arts - a notably subjective and highly saturated field. I began casually inspecting webpages code, then shortly after became obsessed with watching David Malan's CS50 lectures at Harvard, even tackling some of the problem sets for that course (all in C). At that point, the allure of solving problems with a type of "language" was my real interest. Since 2012, I've worked as an assistant Adjunct Professor of Art Foundations and Painting, a small business owner, and a practicing artist.</p>
+<div class="box">   </div>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>About Me</h3>
+        <p>I came to coding very recently, after years of working in the arts - a notably subjective and highly saturated field. I began casually inspecting webpages code, then shortly after became obsessed with watching David Malan's CS50 lectures at Harvard, even tackling some of the problem sets for that course (all in C). At that point, the allure of solving problems with a type of "language" was my real interest. Since 2012, I've worked as an assistant Adjunct Professor of Art Foundations and Painting, a small business owner, and a practicing artist. All three of these occupations require first understanding the tools at hand, then locating the limits of those tools and experimenting with solving a proposition within those limits, finding the possibilities inside of that structure. Creative problem solving.</p>
+     </div>
+   </div>
+
+
+<div class="col-md-4">
+  <div class="interests">
+    <div class="well">
+      <h3>My Current Interests</h3>
+      <p>I have an ongoing, rotating list of interests that I'd narrow to three things for brevity:</p>
+        <ol>
+          <li>Raising my kids</li>
+          <li>Solving Problems</li>
+          <li>Always Coffee</li>
+        </ol>
+     </div>
+   </div>
 </div>
 
-<div class="background">
-  <h3>My Background</h3>
-  <p>I was born and raised in Portland Oregon. My father, now deceased, made his living as a small business owner and jazz musician. My mother, to this day is the principal Harpist in the Oregon Symphony, in Portland, OR. Early on, I studied music, later taking a keen interest in visual arts, which I pursued as an Undergraduate at University of Oregon, where I received my BFA Painting degree in 2003. I later went on to receive a MFA degree at the storied Tyler Shcool of Art in Philadelphia, PA, where I now live.</p>
+<div class="col-md-4">
+  <div class="well">
+    <h3>My Background</h3>
+    <p>I was born and raised in Portland Oregon. My father, now deceased, made his living as a small business owner and jazz musician. My mother, to this day is the principal Harpist in the Oregon Symphony, in Portland, OR. Early on, I studied music, later taking a keen interest in visual arts, which I pursued as an Undergraduate at University of Oregon, where I received my BFA Painting degree in 2003. I later went on to receive a MFA degree at the storied Tyler Shcool of Art in Philadelphia, PA, where I now live.</p>
+  </div>
 </div>
 
-<div class="interests">
-  <h3>My Current Interests</h3>
-  <p>I have an ongoing, rotating list of interests that I'd narrow to three things for brevity:</p>
-    <ol>
-      <li>Raising my kids</li>
-      <li>Solving Problems</li>
-      <li>Always Coffee</li>
-    </ol>
 </div>
- 
-<div class="quote">
-  <blockquote>
-    <p>"Success is the ability to go from one failure to another with no loss of enthusiasm." - Winston Churchill</p>
+
+<div class="box">   </div>
+
+<div class="col-md-4">
+  <blockquote class="bg-info">
+    <p>"Success is the ability to go from one failure to another with no loss of enthusiasm." </p>
+    <footer>Winston Churchill</footer>
   </blockquote>
 </div>
 
+<div class="box">   </div>
 
+</div>
 </body>
 </html>
